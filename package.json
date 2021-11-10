@@ -1,0 +1,32 @@
+{
+  "name": "custom-functions",
+  "version": "1.0.0",
+  "description": "some new js functions",
+  "scripts": {
+    "start": "webpack && node dist/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vasilkrug/Test.git"
+  },
+  "keywords": [
+    "functions",
+    "test",
+    "lol"
+  ],
+  "author": "vk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vasilkrug/Test/issues"
+  },
+  "homepage": "https://github.com/Vasilkrug/Test#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  }
+}
