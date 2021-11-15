@@ -1,4 +1,4 @@
-export function arrayofnums(start, end) {
+export const arrayOfNums = (start, end) => {
     let arr = []
     for (let i = start; i <= end; i++)
         arr.push(i)
