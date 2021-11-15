@@ -3,6 +3,7 @@ import { arrayOfNums } from "./functions/arrayOfNums";
 import { largestNumber } from "./functions/largestNumber";
 import { smallestNumber } from "./functions/smallestNumber";
 import { orderedArr } from "./functions/orderedArr";
+import {randomNumbers} from "./functions/randomNumbers";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -27,5 +28,6 @@ make('Массив чисел по заданным параметрам', array
 make('Поиск наибольшего числа из массива', largestNumber(23,55,8,171))
 make('Наименьшее число из массива', smallestNumber(12,22,-67,777,))
 make ('Упорядоченный массив', orderedArr(1,33,2,5,77))
+make('Массив случайных чисел', randomNumbers(5))
 
 
