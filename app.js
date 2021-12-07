@@ -6,6 +6,7 @@ import { orderedArr } from "./functions/orderedArr";
 import {randomNumbers} from "./functions/randomNumbers";
 import {largestEvenNumber} from './functions/largEvenNumber'
 import {largOddNumber} from "./functions/largOddNumber";
+import {sumEvenNumbers} from "./functions/sumEvenNumbers"
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -33,5 +34,6 @@ make ('Упорядоченный массив', orderedArr( 'decreasing',1,4,9,
 make('Массив случайных чисел', randomNumbers(5))
 make('Большее четное число', largestEvenNumber(24,60,81,121,4))
 make('Большее нечетное число', largOddNumber(13,45,8,12,41))
+make('Сумма четных чисел', sumEvenNumbers(2,45,2,2,41))
 
 
