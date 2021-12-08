@@ -1,4 +1,4 @@
-export const orderedArr = (sort, ...arr) => {
+export const orderedArr = (sort, arr) => {
     if (sort === 'increasing') {
         let newArrInc = arr.sort((a, b) => a - b)
         return newArrInc

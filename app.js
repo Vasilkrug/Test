@@ -8,7 +8,7 @@ import {largestEvenNumber} from './functions/largEvenNumber';
 import {largOddNumber} from "./functions/largOddNumber";
 import {sumEvenNumbers} from "./functions/sumEvenNumbers";
 import {sumOddNumbers} from "./functions/sumOddNumbers";
-import {SumMinMax} from "./functions/sumMinMax"
+import {sumMinMax} from "./functions/sumMinMax"
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -28,16 +28,16 @@ const make = (name = '', customFunction) => {
 }
 let myArray = [10, '2', 1, 9, 23, 99]
 /** пример вызова функции суммы */
-make('Суммирование значений', sum(1,5,6,8))
+make('Суммирование значений', sum(myArray))
 make('Массив чисел по заданным параметрам', arrayOfNums(12,22))
-make('Поиск наибольшего числа из массива', largestNumber(23,55,8,171))
+make('Поиск наибольшего числа из массива', largestNumber(myArray))
 make('Наименьшее число из массива', smallestNumber(myArray))
-make ('Упорядоченный массив', orderedArr( 'decreasing',1,4,9,22))
+make ('Упорядоченный массив', orderedArr( 'decreasing',myArray))
 make('Массив случайных чисел', randomNumbers(5))
-make('Большее четное число', largestEvenNumber(22,10,11,33))
-make('Большее нечетное число', largOddNumber(2,17,9,15,2))
-make('Сумма четных чисел', sumEvenNumbers(2,5,6,10,9))
-make('Сумма нечетных чисел', sumOddNumbers(11,3,2,6,10))
-make('Сумма минимума и максимума', SumMinMax(21,2,33,93))
+make('Большее четное число', largestEvenNumber(myArray))
+make('Большее нечетное число', largOddNumber(myArray))
+make('Сумма четных чисел', sumEvenNumbers(myArray))
+make('Сумма нечетных чисел', sumOddNumbers(myArray))
+make('Сумма минимума и максимума', sumMinMax(myArray))
 
 
