@@ -8,6 +8,7 @@ import {largestEvenNumber} from './functions/largEvenNumber';
 import {largOddNumber} from "./functions/largOddNumber";
 import {sumEvenNumbers} from "./functions/sumEvenNumbers";
 import {sumOddNumbers} from "./functions/sumOddNumbers";
+import {SumMinMax} from "./functions/sumMinMax"
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -33,9 +34,10 @@ make('Поиск наибольшего числа из массива', largest
 make('Наименьшее число из массива', smallestNumber(myArray))
 make ('Упорядоченный массив', orderedArr( 'decreasing',1,4,9,22))
 make('Массив случайных чисел', randomNumbers(5))
-make('Большее четное число', largestEvenNumber(24,60,81,121,4))
-make('Большее нечетное число', largOddNumber(13,45,8,12,41))
-make('Сумма четных чисел', sumEvenNumbers(2,45,2,2,41))
-make('Сумма нечетных чисел', sumOddNumbers(11,2,4,1,5))
+make('Большее четное число', largestEvenNumber(66,44,11,98))
+make('Большее нечетное число', largOddNumber(2,7,9,11,2))
+make('Сумма четных чисел', sumEvenNumbers(2,5,6,4,9))
+make('Сумма нечетных чисел', sumOddNumbers(11,3,2,6,10))
+make('Сумма минимума и максимума', SumMinMax(51,12,33,9))
 
 
