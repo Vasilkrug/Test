@@ -26,18 +26,20 @@ const make = (name = '', customFunction) => {
         console.log(`Error function ${name}, error: `, e)
     }
 }
-let myArray = [10, '2', 1, 9, 23, 99]
+let myArray = [10, '299', 1, 9, 23, 99]
 /** пример вызова функции суммы */
 make('Суммирование значений', sum(myArray))
+// first 5
 make('Массив чисел по заданным параметрам', arrayOfNums(12,22))
 make('Поиск наибольшего числа из массива', largestNumber(myArray))
 make('Наименьшее число из массива', smallestNumber(myArray))
 make ('Упорядоченный массив', orderedArr( 'decreasing',myArray))
 make('Массив случайных чисел', randomNumbers(5))
+// second 5
 make('Большее четное число', largestEvenNumber(myArray))
 make('Большее нечетное число', largOddNumber(myArray))
 make('Сумма четных чисел', sumEvenNumbers(myArray))
 make('Сумма нечетных чисел', sumOddNumbers(myArray))
 make('Сумма минимума и максимума', sumMinMax(myArray))
-
+// third 5
 
