@@ -1,10 +1,2 @@
-export const largOddNumber = (...args) => {
-    const largestOdd = args.reduce((result, number) => {
-        if (number % 2 !== 0 && number > result) {
-            return  number
-        } else {
-            return result
-        }
-    }, 0)
-    return largestOdd
-}
+export const largOddNumber = (...args) => args.reduce((result, number) =>
+    (number % 2 !== 0 && number > result)  ? number : result, 0);

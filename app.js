@@ -34,10 +34,10 @@ make('Поиск наибольшего числа из массива', largest
 make('Наименьшее число из массива', smallestNumber(myArray))
 make ('Упорядоченный массив', orderedArr( 'decreasing',1,4,9,22))
 make('Массив случайных чисел', randomNumbers(5))
-make('Большее четное число', largestEvenNumber(66,44,11,98))
-make('Большее нечетное число', largOddNumber(2,7,9,11,2))
-make('Сумма четных чисел', sumEvenNumbers(2,5,6,4,9))
+make('Большее четное число', largestEvenNumber(22,10,11,33))
+make('Большее нечетное число', largOddNumber(2,17,9,15,2))
+make('Сумма четных чисел', sumEvenNumbers(2,5,6,10,9))
 make('Сумма нечетных чисел', sumOddNumbers(11,3,2,6,10))
-make('Сумма минимума и максимума', SumMinMax(51,12,33,9))
+make('Сумма минимума и максимума', SumMinMax(21,2,33,93))
 
 

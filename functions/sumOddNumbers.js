@@ -1,11 +1,5 @@
-export  const sumOddNumbers = (...args) => {
-    const sum = args.reduce((result, number) => {
-        if (number % 2 !== 0) {
-            return +result + +number
-        } else {
-            return result
-        }
+export  const sumOddNumbers = (...args) => args.reduce((result, number) =>
+    (number % 2 !== 0) ? +result + +number : result, 0);
 
-    }, 0)
-    return sum
-}
+
+

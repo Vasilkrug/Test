@@ -8,4 +8,3 @@ export const SumMinMax = (...args) => {
 }
 
 
-//  const sumEvenNumbers = (...args) => args.reduce((result, number) => (number % 2 === 0) ? number + result : result, 0)
