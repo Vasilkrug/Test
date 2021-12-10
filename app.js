@@ -13,6 +13,7 @@ import {oddNumberLength} from "./functions/oddNumbersLength";
 import {combinTwoArrows} from "./functions/combinTwoArrows";
 import {sumTwoArrows} from "./functions/sumTwoArrows";
 import {quantityElementsArrs} from "./functions/quantityElementsArrs";
+import {evenNumbersInTwoArrs} from "./functions/evenNumbersInTwoArrs";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -56,5 +57,6 @@ make('Количество нечетных чисел в массиве', oddNu
 make('Объединение двух массивов', combinTwoArrows(myArray,myArray2))
 make('Сумма двух массивов', sumTwoArrows(myArray,myArray2))
 make('количество элементов трех массивов', quantityElementsArrs(myArray,myArray2,myArray3))
+make('поиск четных элементов двух массивов', evenNumbersInTwoArrs(myArray2,myArray3))
 
 
