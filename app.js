@@ -11,6 +11,7 @@ import {sumOddNumbers} from "./functions/sumOddNumbers";
 import {sumMinMax} from "./functions/sumMinMax"
 import {oddNumberLength} from "./functions/oddNumbersLength";
 import {combinTwoArrows} from "./functions/combinTwoArrows";
+import {sumTwoArrows} from "./functions/sumTwoArrows";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -51,5 +52,6 @@ make('Сумма минимума и максимума', sumMinMax(myArray))
 // third 5
 make('Количество нечетных чисел в массиве', oddNumberLength(myArray))
 make('Объединение двух массивов', combinTwoArrows(myArray,myArray2))
+make('Сумма двух массивов', sumTwoArrows(myArray,myArray2))
 
 
