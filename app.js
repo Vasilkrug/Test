@@ -12,6 +12,7 @@ import {sumMinMax} from "./functions/sumMinMax"
 import {oddNumberLength} from "./functions/oddNumbersLength";
 import {combinTwoArrows} from "./functions/combinTwoArrows";
 import {sumTwoArrows} from "./functions/sumTwoArrows";
+import {quantityElementsArrs} from "./functions/quantityElementsArrs";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -33,6 +34,7 @@ const make = (name = '', customFunction) => {
 let myArray = ['99', '2', 1, '9', 23, '99']
 
 let myArray2 = [10, '299', 1, 9, '23', '99']
+let myArray3 = [2, '4', 'э', 9, '23', '99']
 
 /** пример вызова функции суммы */
 make('Суммирование значений', sum(myArray))
@@ -53,5 +55,6 @@ make('Сумма минимума и максимума', sumMinMax(myArray))
 make('Количество нечетных чисел в массиве', oddNumberLength(myArray))
 make('Объединение двух массивов', combinTwoArrows(myArray,myArray2))
 make('Сумма двух массивов', sumTwoArrows(myArray,myArray2))
+make('количество элементов трех массивов', quantityElementsArrs(myArray,myArray2,myArray3))
 
 
