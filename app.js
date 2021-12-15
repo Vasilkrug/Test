@@ -43,7 +43,7 @@ make('Суммирование значений', sum(myArray))
 make('Массив чисел по заданным параметрам', arrayOfNums(12,22))
 make('Поиск наибольшего числа из массива', largestNumber(myArray))
 make('Наименьшее число из массива', smallestNumber(myArray))
-make ('Упорядоченный массив', orderedArr( 'increasing',myArray))
+make('Упорядоченный массив', orderedArr( 'increasing',myArray))
 make('Массив случайных чисел', randomNumbers(5))
 // second 5
 make('Большее четное число', largestEvenNumber(myArray))
@@ -53,10 +53,10 @@ make('Сумма нечетных чисел', sumOddNumbers(myArray))
 make('Сумма минимума и максимума', sumMinMax(myArray))
 
 // third 5
-make('Количество нечетных чисел в массиве', oddNumberLength(myArray))
+make('Количество нечетных чисел в массиве', oddNumberLength(myArray3))
 make('Объединение двух массивов', combinTwoArrows(myArray,myArray2))
 make('Сумма двух массивов', sumTwoArrows(myArray,myArray2))
 make('количество элементов трех массивов', quantityElementsArrs(myArray,myArray2,myArray3))
 make('поиск четных элементов двух массивов', evenNumbersInTwoArrs(myArray2,myArray3))
 
-
+// fourth 5
