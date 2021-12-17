@@ -61,3 +61,8 @@ make('поиск четных элементов двух массивов', eve
 
 // fourth 5
 // just for test
+function test() {
+    console.log('test here')
+}
+
+test()
