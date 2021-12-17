@@ -60,3 +60,8 @@ make('количество элементов трех массивов', quanti
 make('поиск четных элементов двух массивов', evenNumbersInTwoArrs(myArray2,myArray3))
 
 // fourth 5
+function test() {
+    console.log('test here')
+}
+
+test()
