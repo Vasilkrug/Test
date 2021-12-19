@@ -16,6 +16,7 @@ import {quantityElementsArrays} from "./functions/quantityElementsArrs";
 import {evenNumbersInTwoArrays} from "./functions/evenNumbersInTwoArrs";
 import {getEveryThirdSum} from "./functions/everyThirdSum";
 import {createArrays} from "./functions/createArrays";
+import {getAverage} from "./functions/getAverage";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -60,7 +61,9 @@ make('Объединение двух массивов', combineTwoArrows(myArra
 make('Сумма двух массивов', sumTwoArrays(myArray,myArray3))
 make('количество элементов трех массивов', quantityElementsArrays(myArray,myArray2,myArray3))
 make('поиск четных элементов двух массивов', evenNumbersInTwoArrays(myArray2,myArray3))
+
+// fourth 5
 make('сумма каждого третьего элемента массива',getEveryThirdSum(myArray))
 make('создание многомерного массива',createArrays(2,5))
-// fourth 5
+make('расчета среднего арифметического значений массива',getAverage(myArray))
 // just for test
