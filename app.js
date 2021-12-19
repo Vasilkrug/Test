@@ -17,6 +17,7 @@ import {evenNumbersInTwoArrays} from "./functions/evenNumbersInTwoArrs";
 import {getEveryThirdSum} from "./functions/everyThirdSum";
 import {createArrays} from "./functions/createArrays";
 import {getAverage} from "./functions/getAverage";
+import {changingElByType} from "./functions/changingElByType";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -66,4 +67,5 @@ make('поиск четных элементов двух массивов', eve
 make('сумма каждого третьего элемента массива',getEveryThirdSum(myArray))
 make('создание многомерного массива',createArrays(2,5))
 make('расчета среднего арифметического значений массива',getAverage(myArray))
+make('изменение элементов массива по типу',changingElByType(myArray,2,false))
 // just for test
