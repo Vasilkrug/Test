@@ -14,6 +14,7 @@ import {combineTwoArrows} from "./functions/combinTwoArrays";
 import {sumTwoArrays} from "./functions/sumTwoArrays";
 import {quantityElementsArrays} from "./functions/quantityElementsArrs";
 import {evenNumbersInTwoArrays} from "./functions/evenNumbersInTwoArrs";
+import {getEveryThirdSum} from "./functions/everyThirdSum";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -32,7 +33,7 @@ const make = (name = '', customFunction) => {
     }
 }
 
-let myArray = [ '2', 2, '9', 23, '99']
+let myArray = [1,2,'3',4,5,6,7]
 
 let myArray2 = [10, '299', 2, 9, '23', '99']
 let myArray3 = [2, '4', 'э', 9, '23', '99']
@@ -58,6 +59,6 @@ make('Объединение двух массивов', combineTwoArrows(myArra
 make('Сумма двух массивов', sumTwoArrays(myArray,myArray3))
 make('количество элементов трех массивов', quantityElementsArrays(myArray,myArray2,myArray3))
 make('поиск четных элементов двух массивов', evenNumbersInTwoArrays(myArray2,myArray3))
-
+make('сумма каждого третьего элемента массива',getEveryThirdSum(myArray))
 // fourth 5
 // just for test
