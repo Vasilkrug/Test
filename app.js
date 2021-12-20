@@ -18,6 +18,7 @@ import {getEveryThirdSum} from "./functions/everyThirdSum";
 import {createArrays} from "./functions/createArrays";
 import {getAverage} from "./functions/getAverage";
 import {changingElByType} from "./functions/changingElByType";
+import {insertElinArr} from "./functions/insertElementInArray";
 
 /** вот тут я буду вызывать твои функции, также тут ты сможешь тестировать */
 /**
@@ -68,4 +69,5 @@ make('сумма каждого третьего элемента массива
 make('создание многомерного массива',createArrays(2,5))
 make('расчета среднего арифметического значений массива',getAverage(myArray))
 make('изменение элементов массива по типу',changingElByType(myArray,2,false))
+make('вставка элемента в определенное место массива',insertElinArr(myArray,3,1))
 // just for test
